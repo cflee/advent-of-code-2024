@@ -1,6 +1,6 @@
 plugins {
     application
-    kotlin("jvm") version "2.1.0"
+    kotlin("jvm") version "1.9.25"
 }
 
 sourceSets {
@@ -16,5 +16,5 @@ tasks {
 }
 
 application {
-    mainClass = "Day04Kt"
+    mainClass = "Day05Kt"
 }
