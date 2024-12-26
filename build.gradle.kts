@@ -16,5 +16,5 @@ tasks {
 }
 
 application {
-    mainClass = "Day15Kt"
+    mainClass = "Day16Kt"
 }
