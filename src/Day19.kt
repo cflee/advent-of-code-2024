@@ -2,12 +2,12 @@ import java.util.*
 
 import kotlin.math.*
 
-data class TrieNode(
+fun main() {
+    data class TrieNode(
     var isEnd: Boolean,
     val children: Array<TrieNode?> = Array(26) { null }
 )
 
-fun main() {
     fun insert(root: TrieNode, s: String) {
         var cur = root
         var i = 0
